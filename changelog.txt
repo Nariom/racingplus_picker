@@ -1,0 +1,12 @@
+1.00 - 16/11/17
+* site live, allows to pick a random character, build, goal or format for The Binding of Isaac Racing+ client
+1.01 - 17/11/17
+* fixed a bug where Magdalene wouldn't be picked because of a misspelled checkbox's value
+1.02 - 17/11/17
+* fixed a bug where the blue baby goal would display the blue baby character when picked (same picture id name)
+* fixed a bug when picking from a void selection, now displays the ? random picture
+1.03 - 17/11/17
+* minor aesthetic changes
+* added a settings panel with an eliminatory check box option and "toggle all" and "pick all" buttons
+1.04 - 19/11/17
+* seeded hard format icon update

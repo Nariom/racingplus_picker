@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/index.css">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row"><br></div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <div class="card bg-dark">
+            <div class="container card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <h4 class="card-title">Formats</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="unseeded" checked>
+                      <img src="static/img/formats/unseeded.png" id="unseeded">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="seeded" checked>
+                      <img src="static/img/formats/seeded.png" id="seeded">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="diversity" checked>
+                      <img src="static/img/formats/diversity.png" id="diversity">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="lite" checked>
+                      <img src="static/img/formats/unseeded-lite.png" id="lite">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="hard" checked>
+                      <img src="static/img/formats/hard.png" id="hard">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-2">
+                  <img src="static/img/random.png" class="result">
+                </div>
+              </div>
+              <div class="row"><br></div>
+              <div class="row justify-content-center">
+                <div class="col-md-4">
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary toggle">Toggle</button>
+                    <button type="button" class="btn btn-success pick">Pick</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark">
+            <div class="container card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <h4 class="card-title">Characters</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Samael" checked>
+                      <img src="static/img/chars/Samael.png" id="Samael">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Isaac" checked>
+                      <img src="static/img/chars/Isaac.png" id="Isaac">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Magdalene" checked>
+                      <img src="static/img/chars/Magdalene.png" id="Magdalene">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Cain" checked>
+                      <img src="static/img/chars/Cain.png" id="Cain">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Judas" checked>
+                      <img src="static/img/chars/Judas.png" id="Judas">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Blue_Baby" checked>
+                      <img src="static/img/chars/Blue_Baby.png" id="Blue_Baby">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Eve" checked>
+                      <img src="static/img/chars/Eve.png" id="Eve">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Samson" checked>
+                      <img src="static/img/chars/Samson.png" id="Samson">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Azazel" checked>
+                      <img src="static/img/chars/Azazel.png" id="Azazel">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Lazarus" checked>
+                      <img src="static/img/chars/Lazarus.png" id="Lazarus">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Eden" checked>
+                      <img src="static/img/chars/Eden.png" id="Eden">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="The_Lost" checked>
+                      <img src="static/img/chars/The_Lost.png" id="The_Lost">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Lilith" checked>
+                      <img src="static/img/chars/Lilith.png" id="Lilith">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Keeper" checked>
+                      <img src="static/img/chars/Keeper.png" id="Keeper">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Apollyon" checked>
+                      <img src="static/img/chars/Apollyon.png" id="Apollyon">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-2">
+                  <img src="static/img/random.png" class="result">
+                </div>
+              </div>
+              <div class="row"><br></div>
+              <div class="row justify-content-center">
+                <div class="col-md-4">
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary toggle">Toggle</button>
+                    <button type="button" class="btn btn-success pick">Pick</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark">
+            <div class="container card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <h4 class="card-title">Goals</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="chest" checked>
+                      <img src="static/img/goals/Blue_Baby.png" id="chest">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="The_Lamb" checked>
+                      <img src="static/img/goals/The_Lamb.png" id="The_Lamb">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Mega_Satan" checked>
+                      <img src="static/img/goals/Mega_Satan.png" id="Mega_Satan">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="Everything" checked>
+                      <img src="static/img/goals/Everything.png" id="Everything">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-2">
+                  <img src="static/img/random.png" class="result">
+                </div>
+              </div>
+              <div class="row"><br></div>
+              <div class="row justify-content-center">
+                <div class="col-md-4">
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary toggle">Toggle</button>
+                    <button type="button" class="btn btn-success pick">Pick</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card bg-dark">
+            <div class="container card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <h4 class="card-title">Builds</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="1" checked>
+                      <img src="static/img/builds/1.png" id="1">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="2" checked>
+                      <img src="static/img/builds/2.png" id="2">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="3" checked>
+                      <img src="static/img/builds/3.png" id="3">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="4" checked>
+                      <img src="static/img/builds/4.png" id="4">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="5" checked>
+                      <img src="static/img/builds/5.png" id="5">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="6" checked>
+                      <img src="static/img/builds/6.png" id="6">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="7" checked>
+                      <img src="static/img/builds/7.png" id="7">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="8" checked>
+                      <img src="static/img/builds/8.png" id="8">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="9" checked>
+                      <img src="static/img/builds/9.png" id="9">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="10" checked>
+                      <img src="static/img/builds/10.png" id="10">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="11" checked>
+                      <img src="static/img/builds/11.png" id="11">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="12" checked>
+                      <img src="static/img/builds/12.png" id="12">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="13" checked>
+                      <img src="static/img/builds/13.png" id="13">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="14" checked>
+                      <img src="static/img/builds/14.png" id="14">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="15" checked>
+                      <img src="static/img/builds/15.png" id="15">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="16" checked>
+                      <img src="static/img/builds/16.png" id="16">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="17" checked>
+                      <img src="static/img/builds/17.png" id="17">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="18" checked>
+                      <img src="static/img/builds/18.png" id="18">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="19" checked>
+                      <img src="static/img/builds/19.png" id="19">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="20" checked>
+                      <img src="static/img/builds/20.png" id="20">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="21" checked>
+                      <img src="static/img/builds/21.png" id="21">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="22" checked>
+                      <img src="static/img/builds/22.png" id="22">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="23" checked>
+                      <img src="static/img/builds/23.png" id="23">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="24" checked>
+                      <img src="static/img/builds/24.png" id="24">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="25" checked>
+                      <img src="static/img/builds/25.png" id="25">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="26" checked>
+                      <img src="static/img/builds/26.png" id="26">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="27" checked>
+                      <img src="static/img/builds/27.png" id="27">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="28" checked>
+                      <img src="static/img/builds/28.png" id="28">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="29" checked>
+                      <img src="static/img/builds/29.png" id="29">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="30" checked>
+                      <img src="static/img/builds/30.png" id="30">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="31" checked>
+                      <img src="static/img/builds/31.png" id="31">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="32" checked>
+                      <img src="static/img/builds/32.png" id="32">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="33" checked>
+                      <img src="static/img/builds/33.png" id="33">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-2">
+                  <img src="static/img/random.png" class="result">
+                </div>
+              </div>
+              <div class="row"><br></div>
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary toggle">All</button>
+                    <button type="button" class="btn btn-info single">Single</button>
+                    <button type="button" class="btn btn-warning item">Item Room</button>
+                    <button type="button" class="btn btn-success pick">Pick</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark">
+            <div class="container card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <h4 class="card-title">Settings</h4>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-2">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" value="eliminate" id="eliminate">
+                      <img src="static/img/NO.png">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary" id="toggleAll">Toggle All</button>
+                    <button type="button" class="btn btn-success" id=pickAll>Pick All</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="static/js/index.js"></script>
+
+  </body>
+
+</html>
